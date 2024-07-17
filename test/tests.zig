@@ -362,7 +362,7 @@ const HealStep = struct {
                 .makeFn = make,
             }),
             .exercises = exercises,
-            .work_path = work_path,
+            .work_path = work_path.src_path.sub_path,
         };
 
         return self;
